@@ -6,7 +6,7 @@ try {
     $id = uniqid();
 
     // Default password
-    $plainPassword = "Admin@123";
+    $plainPassword = "admin123";
     $hash = password_hash($plainPassword, PASSWORD_DEFAULT);
 
     // Insert admin
